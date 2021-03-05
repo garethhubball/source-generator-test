@@ -17,9 +17,9 @@ namespace Generators
             // begin creating the source we'll inject into the users compilation
             var sourceBuilder = new StringBuilder(@"
 using System;
-namespace HelloWorldGenerated
+namespace ConsoleTest
 {
-    public static class HelloWorld
+    public partial class Foo
     {
         public static void SayHello() 
         {

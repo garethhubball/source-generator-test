@@ -6,7 +6,12 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            HelloWorldGenerated.HelloWorld.SayHello();
+            Foo.SayHello();
         }
+    }
+
+    public partial class Foo
+    {
+        public int Bar = 1;
     }
 }
